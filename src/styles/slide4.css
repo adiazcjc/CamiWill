@@ -16,9 +16,13 @@
   
   .slide4-title {
     font-size: 56px;
-    font-family: 'Amsterdam', serif;
+    /* font-family: 'Amsterdam', serif; */
     color: #222;
     margin-top: 5%;
+    font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
   
   .slide4-icon-top {

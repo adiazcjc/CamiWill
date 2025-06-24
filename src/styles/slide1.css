@@ -1,6 +1,9 @@
 /* Importar la fuente Amsterdam */
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
 @font-face { 
     font-family: Amsterdam; 
     src: url("../../fonts/AmsterdamOne.ttf");
