@@ -19,75 +19,81 @@ function Slide2() {
         </div>
       </div>
       <div className="slide2-cards-row">
-      <Slide direction="left" triggerOnce>
-        <div className="slide2-card">
-          <div className="slide2-card-icon">💍</div>
-          <div className="slide2-card-title">Civil</div>
-          <div className="slide2-card-desc">
-            Fecha y lugar a confirmar
-            <br />
-            Horario a confirmar
+        {/*  <Slide direction="left" triggerOnce>
+          <div className="slide2-card">
+            <div className="slide2-card-icon">💍</div>
+            <div className="slide2-card-title">Civil</div>
+            <div className="slide2-card-desc">
+              Fecha y lugar a confirmar
+              <br />
+              Horario a confirmar
+            </div>
           </div>
-        </div>
+        </Slide> */}
+       
+       
+        <Slide direction="left" triggerOnce>
+          <div className="slide2-card">
+            <div className="slide2-card-icon">⛪</div>
+            <div className="slide2-card-title">Ceremonia Religiosa</div>
+            <div className="slide2-card-desc">
+              Parroquia Nuestra Sra Del Valle
+              <br />
+              Villa Quinteros
+              <br />
+              4 de Octubre de 2025 10:30 HS
+            </div>
+          </div>
         </Slide>
         <Slide direction="right" triggerOnce>
-        <div className="slide2-card">
-          <div className="slide2-card-icon">🥂</div>
-          <div className="slide2-card-title">Fiesta</div>
-          <div className="slide2-card-desc">
-            27 de Diciembre de 2025 22:00 HS Salón
-            <br />
-            Quinta el Pacará III
+          <div className="slide2-card">
+            <div className="slide2-card-icon">🥂</div>
+            <div className="slide2-card-title">Recepción</div>
+            <div className="slide2-card-desc">
+              Finca Helvecia
+              <br />
+              Km 1220 - Manuela Pedraza
+              <br />
+              Simoca
+            </div>
           </div>
-        </div>
-        </Slide>
-        <Slide direction="left" triggerOnce>
-        <div className="slide2-card">
-          <div className="slide2-card-icon">⛪</div>
-          <div className="slide2-card-title">Ceremonia</div>
-          <div className="slide2-card-desc">
-            27 de Diciembre de 2025 22:30 HS Salón
-            <br />
-            Quinta el Pacará III
-          </div>
-        </div>
         </Slide>
       </div>
       <Slide direction="up" triggerOnce>
-      <div className="slide2-btn-row">
-        <button
-          className="slide2-btn"
-          onClick={() =>
-            window.open(
-              "https://www.google.com/maps?q=-27.229566951752666,-65.3562456054208",
-              "_blank"
-            )
-          }
-        >
-          <span
-            className="slide2-btn-icon"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              marginRight: 8,
-            }}
+        <div className="slide2-btn-row">
+          <button
+            className="slide2-btn"
+            onClick={() =>
+              window.open(
+                "https://www.google.com/maps?q=-27.229566951752666,-65.3562456054208",
+                "_blank"
+              )
+            }
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="none"
-              viewBox="0 0 24 24"
+            <span
+              className="slide2-btn-icon"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                marginRight: 8,
+              }}
             >
-              <path
-                fill="#2d4669"
-                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
-              />
-            </svg>
-          </span>
-          CÓMO LLEGAR
-        </button>
-      </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#2d4669"
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                />
+              </svg>
+            </span>
+            CÓMO LLEGAR
+          </button>
+        </div>
       </Slide>
     </div>
   );

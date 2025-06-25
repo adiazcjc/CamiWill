@@ -6,6 +6,7 @@ import Slide3 from "./Slide3";
 import Slide4 from "./Slide4";
 import Slide5 from "./Slide5";
 import Slide6 from "./Slide6";
+import Slide7 from "./Slide7";
 import Footer from "./Footer";
 import { Slide } from "react-awesome-reveal";
 
@@ -32,8 +33,10 @@ function Home() {
         <Slide6 />
       </Slide>
       <Slide direction="up" triggerOnce>
-
-      <Footer />
+        <Slide7 />
+      </Slide>
+      <Slide direction="up" triggerOnce>
+        <Footer />
       </Slide>
     </section>
   );
