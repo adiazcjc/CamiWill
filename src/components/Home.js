@@ -20,9 +20,7 @@ function Home() {
       <Slide direction="up" triggerOnce>
         <Slide2 />
       </Slide>
-      <Slide direction="up" triggerOnce>
-        <Slide3 />
-      </Slide>
+      
       <Slide direction="up" triggerOnce>
         <Slide4 />
       </Slide>
@@ -31,6 +29,9 @@ function Home() {
       </Slide>
       <Slide direction="up" triggerOnce>
         <Slide6 />
+      </Slide>
+      <Slide direction="up" triggerOnce>
+        <Slide3 />
       </Slide>
       <Slide direction="up" triggerOnce>
         <Slide7 />

@@ -1,14 +1,11 @@
 import React from "react";
 import "../styles/slide3.css";
 import { Slide } from "react-awesome-reveal";
-import marcoTop from "../imagenes/marcotop.png";
-import marcoDown from "../imagenes/marcodown.png";
 
 function Slide3() {
   return (
     <div className="slide3-container">
       <Slide direction="left" triggerOnce>
-        <img src={marcoTop} alt="marcoTop" className="marcoTop" />
       <div className="slide3-icon-top">
         {/* Aquí puedes poner una imagen decorativa si tienes, por ejemplo un SVG o PNG */}
       </div>
@@ -30,7 +27,6 @@ function Slide3() {
         CONFIRMAR
       </button>
       </Slide>
-      <img style={{marginTop: ""}} src={marcoDown} alt="marcoDown" className="marcoDown" />
     </div>
   );
 }

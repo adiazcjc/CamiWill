@@ -2,13 +2,12 @@ import React from "react";
 import "../styles/slide5.css";
 import vestimenta from "../imagenes/vestimenta.png";
 import { Slide } from "react-awesome-reveal";
-import marcoTop from "../imagenes/marcotop.png";
-import marcoDown from "../imagenes/marcodown.png";
+
 
 function Slide5() {
     return(
         <div className="slide5-container">
-            <img src={marcoTop} alt="marcoTop" className="marcoTop" />
+            
             <Slide direction="left" triggerOnce>
             <h1 className="slide5-title">Hagamos juntos una fiesta épica</h1>
             </Slide>
@@ -26,7 +25,7 @@ function Slide5() {
                 *No olvides llevar tu calzado más cómodo para el momento del baile.
             </p>
             </Slide>
-            <img style={{marginTop: ""}} src={marcoDown} alt="marcoDown" className="marcoDown" />
+            
        </div>
     )
 }

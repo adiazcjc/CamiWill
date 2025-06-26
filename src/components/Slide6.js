@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/slide6.css";
 import { Slide } from "react-awesome-reveal";
+import marcoTop from "../imagenes/marcotop.png";
+import marcoDown from "../imagenes/marcodown.png";
 
 function Slide6() {
   const [showMonto, setShowMonto] = useState(false);
@@ -10,6 +12,7 @@ function Slide6() {
   };
   return (
     <div className="slide6-container">
+      <img src={marcoTop} alt="marcoTop" className="marcoTop" />
       <Slide direction="left" triggerOnce>
       <h1 className="slide6-title">Tarjetas </h1>
       </Slide>
@@ -53,6 +56,7 @@ function Slide6() {
         </Slide>
       )}
       </Slide>
+      <img src={marcoDown} alt="marcoDown" className="marcoDown" />
     </div>
   );
 }
