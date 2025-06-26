@@ -52,9 +52,9 @@ function Slide2() {
             <div className="slide2-card-desc">
               Finca Helvecia
               <br />
-              Km 1220 - Manuela Pedraza
+              Km 1220 - Manuela Pedraza - Simoca
               <br />
-              Simoca
+              4 de Octubre de 2025 13:00 HS
             </div>
           </div>
         </Slide>

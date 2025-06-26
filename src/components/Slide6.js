@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/slide6.css";
 import { Slide } from "react-awesome-reveal";
 
 function Slide6() {
+  const [showMonto, setShowMonto] = useState(false);
+
+  const handleShowMonto = () => {
+    setShowMonto(!showMonto);
+  };
   return (
     <div className="slide6-container">
       <Slide direction="left" triggerOnce>
@@ -16,8 +21,11 @@ function Slide6() {
         fecha de la boda. Les recomendamos adquirir la suya con anticipación
         para acceder al valor actual.
       </p>
+      {/*
+      
       <button
         className="slide6-btn"
+        
         onClick={() =>
           window.open(
             "https://wa.me/5493865233422?text=Hola%20Cami%20%26%20Will!%20Gracias%20por%20su%20invitaci%C3%B3n...",
@@ -27,6 +35,23 @@ function Slide6() {
       >
         CONSULTAR
       </button>
+            */}
+             <button
+        className="slide6-btn"
+        onClick={handleShowMonto}
+        
+      >
+        CONSULTAR
+      </button>
+      {showMonto && (
+        <Slide direction="up" triggerOnce>
+          <span className="monto-text">
+            El valor de la tarjeta es de $45.000
+            <span className="solo-mobile"><br /></span>
+            por persona
+          </span>
+        </Slide>
+      )}
       </Slide>
     </div>
   );
